@@ -1,0 +1,141 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  background: #f2f2f2;
+  margin: 0 auto;
+  padding-top: 60px;
+  max-width: 900px;
+}
+
+section, header {
+  background-color: #ffffff;
+  padding: 10px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width:900px;
+}
+
+#menu li {
+  float: left;
+  max-width:100%;
+}
+
+#menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 17px 16px;
+  padding-right: 5px;
+  font-size: 0.7500em;
+  font-weight: bold;
+  max-width:100%;
+}
+
+#menu li a:hover {
+  background-color: #0097d6;
+}
+
+#menu li a:active {
+  background-color: #8fcfec;
+}
+
+#cabecera {
+  background: #0099cc;
+  clear: both;
+  padding-top: 60px;
+  color: #ffffff;
+  box-sizing: border-box;
+  text-align:center;
+  
+}
+
+#fotoperfil {
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 300px;
+}
+
+#curriculum, #nombreperfil {
+  text-align: center;
+}
+
+#pie {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.7500em;
+  padding: 5px;
+}
+
+#educacion ul, #experiencia ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+#educacion li #experiencia li{
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+#perfil h2, #educacion h2, #experiencia h2, #contacto h2{
+  border-left: 4px solid #8fcfec;
+  padding: 5px;
+  background-color: #e6f7ff;
+  box-sizing: border-box;
+}
+
+.ce a:link, .ce a:visited{
+  text-decoration: none;  
+}
+
+.ce a {
+  background-color: #33ccff;
+  color: white;
+  border: 2px solid #0099cc;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+#formulariocontacto label, #enviar {
+  display: block;
+  font-weight: bold;
+}
+
+#formulariocontacto input, #formulariocontacto textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#formulariocontacto button {
+  border: 2px solid #0099cc;
+  padding: 5px 20px;
+  font-size: 0.8em;
+  color: #ffffff;
+  background: #33ccff;
+  font-weight: bold;
+}
+img{
+	border:6px solid blue;
+	
+}
